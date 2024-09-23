@@ -1,0 +1,22 @@
+package examen.repasandoPOO;
+
+public class Camión extends Vehículo {
+	public Camión(String marca, String modelo, int años, Persona propietario, int capacidadCarga) {
+		super(marca, modelo, años, propietario);
+		this.capacidadCarga = capacidadCarga;
+	}
+	public Camión(String marca, String modelo, int años, int capacidadCarga) {
+		super(marca, modelo, años);
+		this.capacidadCarga = capacidadCarga;
+	}
+
+	@Override
+	public String toString() {
+		return "Camión [capacidadCarga=" + capacidadCarga + ", getMarca()=" + getMarca() + ", getModelo()="
+				+ getModelo() + ", getAños()=" + getAños() + ", getPropietario()=" + getPropietario() + ", getClass()="
+				+ getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
+	}
+
+	private int capacidadCarga;
+	
+}

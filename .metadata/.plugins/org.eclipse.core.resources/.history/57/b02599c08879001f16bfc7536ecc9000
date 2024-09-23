@@ -1,0 +1,24 @@
+package examen.repasandoPOO;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+	Persona Ana =new Persona("Ana");
+	Persona Juan =new Persona("Juan");
+	Coche coche1= new Coche("Toyota", "Corolla", 2020, Juan, 4);
+	Coche coche2 =new Coche("Honda", "Civic", 2021, Ana,4 );
+	Coche coche3= new Coche("Ford", "Focus", 2022, 4);
+	Camión camión1= new Camión("Mercedes", "Actors", 2019, Juan, 18);
+	
+	System.out.println("Total de vehículos creados: ");
+    System.out.print("Coche 1 propietario: "+ coche1.getPropietario());
+    System.out.print("Coche 2 propietario: "+ coche2.getPropietario());
+    System.out.println("Coche 3 no tiene propietario");
+    System.out.println("Camión 1 propietario: "+camión1.getPropietario());
+
+    
+
+
+	}
+}

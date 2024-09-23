@@ -1,0 +1,60 @@
+package examen.repasandoPOO;
+
+public class Vehículo {
+	public static int contador;
+	
+	private String marca;
+	private String modelo;
+	private int años;
+	private Persona propietario;
+	
+	
+	public Vehículo(String marca, String modelo, int años, Persona propietario) {
+		super();
+		this.marca = marca;
+		this.modelo = modelo;
+		this.años = años;
+		this.propietario = propietario;
+	}
+	
+	public Vehículo(String marca, String modelo, int años) {
+		super();
+		this.marca = marca;
+		this.modelo = modelo;
+		this.años = años;
+	}
+
+	public String getMarca() {
+		return marca;
+	}
+	public void setMarca(String marca) {
+		this.marca = marca;
+	}
+	public String getModelo() {
+		return modelo;
+	}
+	public void setModelo(String modelo) {
+		this.modelo = modelo;
+	}
+	public int getAños() {
+		return años;
+	}
+	public void setAños(int años) {
+		this.años = años;
+	}
+	public Persona getPropietario() {
+		return propietario;
+	}
+	public void setPropietario(Persona propietario) {
+		this.propietario = propietario;
+	}
+	public static int getContador() {
+		return contador;
+	}
+	public static void setContador(int contador) {
+		Vehículo.contador = contador;
+	}
+	
+	
+
+}

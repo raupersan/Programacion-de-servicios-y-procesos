@@ -1,0 +1,15 @@
+package practica1;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+	Persona Ana =new Persona("Ana");
+	Persona Juan =new Persona("Juan");
+	Coche coche1= new Coche("Toyota", "Corolla", 2020, Juan, 4);
+	Coche coche2 =new Coche("Honda", "Civic", 2021, Ana,4 );
+	Coche coche3= new Coche("Ford", "Focus", 2022, 4);
+	Camión camión1= new Camión("Mercedes", "Actors", 2019, Juan, 18);
+	}
+
+}

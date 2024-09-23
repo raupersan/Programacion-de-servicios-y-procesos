@@ -1,0 +1,23 @@
+package examen.repasandoPOO;
+
+public class Coche extends Vehículo {
+	private int numeroPuertas;
+
+	public Coche(String marca, String modelo, int años, Persona propietario, int numeroPuertas) {
+		super(marca, modelo, años, propietario);
+		this.numeroPuertas = numeroPuertas;
+	}
+
+	public Coche(String marca, String modelo, int años, int numeroPuertas) {
+		super(marca, modelo, años);
+		this.numeroPuertas = numeroPuertas;
+	}
+
+	@Override
+	public String toString() {
+		return "Coche [numeroPuertas=" + numeroPuertas + ", getMarca()=" + getMarca() + ", getModelo()=" + getModelo()
+				+ ", getAños()=" + getAños() + ", getPropietario()=" + getPropietario() + ", getClass()=" + getClass()
+				+ ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
+	}
+	
+}

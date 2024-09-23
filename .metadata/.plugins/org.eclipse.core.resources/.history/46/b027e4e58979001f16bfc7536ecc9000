@@ -1,11 +1,12 @@
 package examen.repasandoPOO;
 
 public class Coche extends Vehículo {
-	protected int numeroPuertas;
+	private int numeroPuertas;
 
 	public Coche(String marca, String modelo, int años, Persona propietario, int numeroPuertas) {
 		super(marca, modelo, años, propietario);
 		this.numeroPuertas = numeroPuertas;
+		contador++;
 	}
 
 	public Coche(String marca, String modelo, int años, int numeroPuertas) {

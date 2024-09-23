@@ -1,7 +1,7 @@
 package examen.repasandoPOO;
 
-public abstract class Vehículo {
-	protected static int contador;
+public class Vehículo {
+	public static int contador;
 	
 	private String marca;
 	private String modelo;
@@ -15,7 +15,6 @@ public abstract class Vehículo {
 		this.modelo = modelo;
 		this.años = años;
 		this.propietario = propietario;
-		contador++;
 	}
 	
 	public Vehículo(String marca, String modelo, int años) {
@@ -23,8 +22,6 @@ public abstract class Vehículo {
 		this.marca = marca;
 		this.modelo = modelo;
 		this.años = años;
-		contador++;
-
 	}
 
 	public String getMarca() {

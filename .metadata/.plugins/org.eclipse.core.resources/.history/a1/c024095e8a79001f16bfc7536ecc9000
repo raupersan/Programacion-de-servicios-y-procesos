@@ -1,6 +1,6 @@
 package examen.repasandoPOO;
 
-public abstract class Vehículo {
+public class Vehículo {
 	protected static int contador;
 	
 	private String marca;

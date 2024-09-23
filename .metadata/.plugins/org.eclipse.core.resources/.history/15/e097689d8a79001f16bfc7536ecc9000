@@ -11,7 +11,7 @@ public class Main {
 	Coche coche3= new Coche("Ford", "Focus", 2022, 4);
 	Camión camión1= new Camión("Mercedes", "Actors", 2019, Juan, 18);
 	
-	System.out.println("Total de vehículos creados: " + Vehículo.getContador());
+	System.out.println("Total de vehículos creados: " + coche1.getContador());
     System.out.println("Coche 1 propietario: "+ coche1.getPropietario());
     System.out.println("Coche 2 propietario: "+ coche2.getPropietario());
     System.out.println("Coche 3 no tiene propietario");

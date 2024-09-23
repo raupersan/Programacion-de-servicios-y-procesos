@@ -52,7 +52,7 @@ public class Vehículo {
 		return contador;
 	}
 	public static void setContador(int contador) {
-		Vehículo.contador = contador;
+		Vehículos.contador = contador;
 	}
 	
 	

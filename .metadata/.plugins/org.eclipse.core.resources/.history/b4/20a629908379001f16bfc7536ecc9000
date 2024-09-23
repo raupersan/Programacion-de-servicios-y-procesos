@@ -1,6 +1,6 @@
 package practica1;
 
-public class Vehículo {
+public class Vehículos {
 	public static int contador;
 	
 	private String marca;
@@ -9,7 +9,7 @@ public class Vehículo {
 	private Persona propietario;
 	
 	
-	public Vehículo(String marca, String modelo, int años, Persona propietario) {
+	public Vehículos(String marca, String modelo, int años, Persona propietario) {
 		super();
 		this.marca = marca;
 		this.modelo = modelo;
@@ -17,7 +17,7 @@ public class Vehículo {
 		this.propietario = propietario;
 	}
 	
-	public Vehículo(String marca, String modelo, int años) {
+	public Vehículos(String marca, String modelo, int años) {
 		super();
 		this.marca = marca;
 		this.modelo = modelo;

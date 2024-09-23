@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Entregables/Gatos.java&apos; to &apos;Gato.java&apos;" description="Rename resource &apos;Gatos.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Gatos.java" name="Gato.java" stamp="1726478821553" updateReferences="true"/>
+</session>

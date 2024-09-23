@@ -1,0 +1,16 @@
+
+public class Prestamo {
+	private String idPrestamo;
+	private Date fechaPrestamo;
+	private Date fechaDevolucion;
+	
+	public Prestamo(String idPrestamo, Date fechaPrestamo, Date fechaDevolucion);
+	
+	public void realizarPrestamo() {
+		
+	}
+	public void finalizarPrestamo() {
+	
+	}
+}
+

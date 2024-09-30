@@ -15,6 +15,7 @@ int main() {
 	if (pid == 0) {
 	printf("\\tSoy el proceso hijo, mi PID es %d\\n", getpid());
 	printf("Estoy bien, gracias por preguntar");
+	exit(1);
 	}
 	printf("Soy el proceso padre, mi PID es %d\\n", getpid());
 	return 0;
